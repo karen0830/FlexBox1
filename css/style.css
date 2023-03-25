@@ -1,0 +1,491 @@
+body{
+    margin: 0px;
+}
+/* nav */
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #1E172F;
+}
+.logo{
+    width: 12%;
+}
+.divEnlaces{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+ 
+.a{
+    color: #777381;
+    text-decoration: none;
+    font-size: 20px;
+    width: 30%;
+}
+.BLANCA{
+    color:#e1dfe3;
+    text-decoration: none;
+    font-size: 20px;
+}
+.botonD{
+    /* background: linear-gradient(to left, #7a46d5 50%, #5358d5 30%); */
+    background: linear-gradient(to right,#7a46d5, #465fd5,#0e7ad5);
+    border: none;
+    border-radius: 5px;
+    height: 44px;
+    width: 103px;
+    color: #e1dfe3;
+    font-size: 16px;
+}
+/* seccion 1 */
+/* seccion 1-1 */
+.generalSeccion1-2{
+    display: flex;
+}
+.seccion1-1{
+    width: 50%;
+    background: #2e2550;
+    height: 522px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.textosSeccion1{
+    display: inline-block;
+}
+.textosSeccion1 h1{
+    font-size: 70px;
+    color: #e1dfe3;
+    height: 127px;
+}
+.textosSeccion1 .p{
+    font-size: 25px;
+    color: #cecbd5;
+    width: 487px;
+    margin-right: 22px;
+}
+.divBoton{
+    border: solid 2px #524b6e;
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    border-radius: 5px;
+}
+.boton1{
+    background: rgb(255, 255, 255);
+    height: 50px;
+    width: 55%;
+    border-radius: 5px;
+    border: none;
+    color: linear-gradient(to right,#7a46d5, #465fd5,#0e7ad5);;
+    font-size: 16px;
+}
+.boton2{
+    background: #2e2550;
+    height: 50px;
+    width: 40%;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    color: #cecbd5;
+    font-size: 16px;
+}
+.pboton{
+    font-size: 16px;
+    background: linear-gradient(to right,#f491c4, #f52a92);
+  -webkit-background-clip: text;
+  color: transparent;
+  height: 16px;
+}
+
+/* seccion 1-2 */
+.seccion1-2{
+    background: url("../images/Canva-Withered-Leaves-Photo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    width: 50%;
+    height: 522px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.imagecSeccion1-2{
+    width: 30%;
+    height: 70%;
+    margin-left: 102px;
+}
+/* seccion 2 */
+.seccion2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.divSeccion2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    gap: 90px;
+}
+.ul1{
+    padding-left:7%;
+}
+li{
+    height: 4px;
+}
+.li { 
+    list-style: '☙ ';
+ }
+ .liGuionL{
+    list-style: "― ";
+    color: #f32b91;
+ }
+ .imgSeccion2{
+    width: 25%;
+    height: 20%;
+ }
+ .h1F{
+    width: 20%;
+    font-size: 40px;
+    color: #f32b91;
+ }
+ .p2{
+    width: 90%;
+ }
+ .divSeccion2 h1{
+    font-size: 30px;
+    margin-top: -13px;
+ }
+.divSeccion2 div{
+    width: 20%;
+ }
+
+
+
+ /* seccion 3 */
+ .seccion3{
+    background: #1e172f;
+ }
+.seccion3-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-top: 30px;
+ }
+ .seccion3-1 .h3{
+    color: #ffffff;
+    font-size: 40px;
+ }
+ .textoSeccion3-1{
+    width: 55%;
+    color: #aeacb4;
+    margin-top: -1%;
+    text-align: center;
+ }
+.seccion3-2{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 617px;
+}
+ .carta{
+    text-align: center;
+    width: 23%;
+    background: #ffffff;
+    height: 562px;
+    border-radius: 5px;
+ }
+
+.imgSeccion{
+    position: relative;
+}
+.pcarta{
+    margin-top: 0px;
+    font-size: 20px;
+    position: relative;
+}
+.lite{
+    color: #f32b91;
+}
+
+/* seccion $numero texto */
+.divNumero{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    height: 68px;
+    width: 100%;
+    background: #f5f5f5;
+}
+.pa{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+.mNumero{
+    display: flex;
+    align-items: center; 
+}
+
+/* listas li */
+.ul{
+    padding-left: 27%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 162px;
+    margin-top: 0px;
+}
+.lic{
+    font-size: 19px;
+}
+.estrella{
+    list-style: "★ ";
+}
+.chulo{
+    list-style: "✔ ";
+}
+.equis{
+    list-style: "✖ ";
+}
+.rosa{
+    color: #f32b91;
+}
+.plistas{
+    width: 70%;
+    color: rgb(10, 9, 9);
+ }
+ /* texto */
+ .parrafoCarta{
+    width: 85%;
+    margin-left: 5%;
+}
+/* Antes de la carta */
+
+/* botones cartas */
+.botonCarta{
+    background: #f4f4f4;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.botonCarta .brosado{
+    background: linear-gradient(to right, #ec5fa7, #f41687);
+    height: 50px;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    font-size: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.botonCarta .button{
+    height: 50px;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    background: #2e2550;
+    font-size: 100%;
+    border: none;
+    border-radius: 5px;
+}
+/* footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+footer img{
+    width: 10%;
+}
+.span{
+    color: #e23890;
+}
+
+/* media queris */
+@media (max-width: 480px) {
+    nav {
+        display: flex;
+        width: 100%;
+        background: #1E172F;
+        height:170px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .divEnlaces {
+        width: 70%;
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .logo {
+        width: 40%;
+        height: 30%;
+    }
+    /* primerr seccion */
+    .generalSeccion1-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    /* seccion 1-1 */
+    .seccion1-1 {
+        width: 100%;
+        background: #2e2550;
+        height: 323px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+    .textosSeccion1 {
+        display: inline-block;
+        margin-top: -78px;
+    }
+    .textosSeccion1 h1 {
+        font-size: 40px;
+        color: #e1dfe3;
+        height: 71px;
+        display: flex;
+        justify-content: center;
+        width: 38%;
+    }
+    .textosSeccion1 .p {
+        font-size: 20px;
+        color: #cecbd5;
+        width: 296px;
+        margin-right: 22px;
+    }
+    .divBoton {
+        border: solid 2px #524b6e;
+        width: 75%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        border-radius: 5px;
+    }
+    .botonD {
+        /* background: linear-gradient(to left, #7a46d5 50%, #5358d5 30%); */
+        background: linear-gradient(to right,#7a46d5, #465fd5,#0e7ad5);
+        border: none;
+        border-radius: 5px;
+        height: 44px;
+        width: 45%;
+        color: #e1dfe3;
+        font-size: 16px;
+    }
+    /* seccion1-2 */
+    .seccion1-2 {
+        background: url(../images/Canva-Withered-Leaves-Photo.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 323px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    /* seccion 2 */
+    .seccion2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .divSeccion2 div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h1F {
+        width: 60%;
+        font-size: 40px;
+        color: #f32b91;
+    }
+    .divSeccion2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        gap: 90px;
+        align-items: center;
+        margin-top: 0%;
+    }
+    .imgSeccion2 {
+        width: 60%;
+        height: 45%;
+    }
+    .divSeccion2 h1 {
+        font-size: 30px;
+        margin-top: -76px;
+        width: 70%;
+        height: 6px;
+    }
+    .p2 {
+        width: 70%;
+        height: 38px;
+    }
+
+
+    /* seccion cartas */
+    .seccion3-2 {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        height: 1798px;
+        flex-direction: column;
+    }
+    .textoSeccion3-1 {
+        width: 80%;
+        color: #aeacb4;
+        margin-top: -1%;
+        text-align: center;
+    }
+    .carta {
+        text-align: center;
+        width: 85%;
+        background: #ffffff;
+        height: 562px;
+        border-radius: 5px;
+    }
+    .botonCarta {
+        background: #f4f4f4;
+        height: 84px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    footer div{
+        width: 40%;
+    }
+    footer img{
+        width: 20%;
+    }
+    footer p{
+        width: 50%;
+        font-size: 15px;
+    }
+}
