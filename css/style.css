@@ -338,6 +338,13 @@ footer img{
         gap: 15px;
         flex-wrap: wrap;
     }
+    .divEnlaces div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 23px;
+    }
     .logo {
         width: 133px;
         height: 54px;
@@ -546,7 +553,7 @@ footer img{
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 5px;
+        gap: 23px;
     }
     /* primerr seccion */
     .generalSeccion1-2 {
