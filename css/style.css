@@ -52,14 +52,14 @@ nav{
 .generalSeccion1-2{
     display: flex;
 }
-.seccion1-1{
-    width: 50%;
+.seccion1-1 {
+    width: 55%;
     background: #2e2550;
     height: 522px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
+    align-items: center;
 }
 .textosSeccion1{
     display: inline-block;
@@ -616,6 +616,201 @@ footer img{
         background-size: 100% 100%;
         width: 100%;
         height: 266px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .imagecSeccion1-2 {
+        width: 20%;
+        height: 70%;
+        margin-left: 102px;
+    }
+    /* seccion 2 */
+    .seccion2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .divSeccion2 div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h1F {
+        width: 60%;
+        font-size: 30px;
+        color: #f32b91;
+    }
+    .divSeccion2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        gap: 90px;
+        align-items: center;
+        margin-top: 0%;
+    }
+    .imgSeccion2 {
+        width: 60%;
+        height: 45%;
+    }
+    .divSeccion2 h1 {
+        font-size: 30px;
+        margin-top: -76px;
+        width: 70%;
+        height: 6px;
+    }
+    .p2 {
+        width: 70%;
+        height: 38px;
+    }
+
+
+    /* seccion cartas */
+    .seccion3-2 {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        height: 1798px;
+        flex-direction: column;
+    }
+    .textoSeccion3-1 {
+        width: 80%;
+        color: #aeacb4;
+        margin-top: -1%;
+        text-align: center;
+    }
+    .carta {
+        text-align: center;
+        width: 85%;
+        background: #ffffff;
+        height: 562px;
+        border-radius: 5px;
+    }
+    .botonCarta {
+        background: #f4f4f4;
+        height: 84px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    footer div{
+        width: 40%;
+    }
+    footer img{
+        width: 20%;
+    }
+    footer p{
+        width: 50%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 920px) {
+    nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background: #1E172F;
+    }
+    .divEnlaces {
+        width: 100%;
+        display: flex;
+        gap: 15px;
+    }
+    .logo {
+        width: 133px;
+        height: 54px;
+    }
+    .a {
+        color: #777381;
+        text-decoration: none;
+        font-size: 20px;
+        width: 75px;
+    }
+    .BLANCA {
+        color: #e1dfe3;
+        text-decoration: none;
+        font-size: 20px;
+        width: 75px;
+    }
+    .divEnlaces div {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 23px;
+    }
+    /* primerr seccion */
+    .generalSeccion1-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    /* seccion 1-1 */
+    .seccion1-1 {
+        width: 100%;
+        background: #2e2550;
+        height: 323px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .textosSeccion1 {
+        display: inline-block;
+        margin-top: -78px;
+    }
+    .textosSeccion1 h1 {
+        font-size: 30px;
+        color: #e1dfe3;
+        height: 73px;
+        display: flex;
+        justify-content: center;
+        width: 32%;
+    }
+    .textosSeccion1 .p {
+        font-size: 20px;
+        color: #cecbd5;
+        width: 296px;
+        margin-right: 22px;
+    }
+    .divBoton {
+        border: solid 2px #524b6e;
+        width: 75%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        border-radius: 5px;
+    }
+    .botonD {
+        /* background: linear-gradient(to left, #7a46d5 50%, #5358d5 30%); */
+        background: linear-gradient(to right,#7a46d5, #465fd5,#0e7ad5);
+        border: none;
+        border-radius: 5px;
+        height: 44px;
+        width: 101px;
+        color: #e1dfe3;
+        font-size: 16px;
+    }
+    /* seccion1-2 */
+    .seccion1-2 {
+        background: url(../images/Canva-Withered-Leaves-Photo.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 320px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
