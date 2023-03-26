@@ -356,12 +356,12 @@ footer img{
         margin-top: -78px;
     }
     .textosSeccion1 h1 {
-        font-size: 40px;
+        font-size: 30px;
         color: #e1dfe3;
-        height: 71px;
+        height: 73px;
         display: flex;
         justify-content: center;
-        width: 38%;
+        width: 32%;
     }
     .textosSeccion1 .p {
         font-size: 20px;
@@ -419,7 +419,7 @@ footer img{
     }
     .h1F {
         width: 60%;
-        font-size: 40px;
+        font-size: 30px;
         color: #f32b91;
     }
     .divSeccion2 {
